@@ -6,9 +6,8 @@ import Effect.Class.Console (log)
 import Data.String.Pattern (Pattern(..), Replacement(..))
 import Data.String (split, replaceAll, contains, trim, length, take)
 import Data.Int (fromString)
-import Data.Maybe (fromMaybe)
-import Data.Array (foldl, takeEnd, filter, head, nub, find, sort, reverse)
 import Data.Maybe (Maybe(..), fromMaybe)
+import Data.Array (foldl, takeEnd, filter, head, nub, find, sort, reverse)
 
 type Game
   = { game :: Int

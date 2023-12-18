@@ -11,6 +11,7 @@ import Data.Maybe (Maybe(..))
 import Node.Process (argv)
 import Day1 (day1)
 import Day2 (day2)
+import Day3 (day3)
 
 session :: String
 session = ""
@@ -44,5 +45,6 @@ main = do
         case day of
           "1" -> day1 input
           "2" -> day2 input
+          "3" -> day3 input
           _ -> log $ show $ "day" <> day <> " not implemented yet"
     Nothing -> log $ show $ "could not determine day from input" <> show args

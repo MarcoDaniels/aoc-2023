@@ -21,6 +21,7 @@ to generate this file without the comments in this block.
   , "maybe"
   , "node-process"
   , "prelude"
+  , "spec"
   , "strings"
   ]
 , packages = ./packages.dhall
